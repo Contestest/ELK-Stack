@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-  - `[Ansible Playbooks](https://github.com/Contestest/ELK-Stack/tree/main/Ansible)`
+  - <https://github.com/Contestest/ELK-Stack/tree/main/Ansible>
 
 This document contains the following details:
 - Description of the Topologu
@@ -76,7 +76,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _10.0.0.9
+- _10.0.0.9_
 - _10.0.0.10_
 
 We have installed the following Beats on these machines:
@@ -95,8 +95,6 @@ SSH into the control node and follow the steps below:
 - Update the filebeat configuaration file to include the IP address of your ELK machine.
 - Run the playbook, and navigate to the Filebeat installation page on the ELK server GUI to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - _`filebeat-playbook.yml` needs to be copied to `/etc/ansible/roles/` directory on your Ansible machine
 - _Update the `hosts` option at the top of the `filebeat-playbook.yml` file on your Ansible machine to include one of two groups, webservers or elk._
-- _Which URL do you navigate to in order to check that the ELK server is running?
 - _Navigate to http://[ELK Server Public IP]:5601/app/kibana_
